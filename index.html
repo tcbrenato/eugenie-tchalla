@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genio Perle</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            scroll-behavior: smooth;
+        }
+        /* Navigation Bar */
+        .navbar {
+            background-color: #0b132b; /* Navy blue background */
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        .navbar-brand, .nav-link {
+            color: white;
+        }
+        .nav-link:hover {
+            color: #f0a500; /* Gold hover color */
+        }
+        /* Accueil Section */
+        .accueil-section {
+            background-color: #0b132b; /* Navy blue background */
+            color: white;
+            padding: 100px 0;
+        }
+        .accueil-section h1 {
+            font-size: 2.5rem;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .accueil-section p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+        }
+        .btn-custom {
+            background-color: #6a4c93; /* Purple button color */
+            border-color: #6a4c93;
+            color: white;
+            padding: 10px 20px;
+            font-size: 1rem;
+            margin-right: 10px;
+        }
+        .btn-custom-outline {
+            border-color: #6a4c93;
+            color: #6a4c93;
+            padding: 10px 20px;
+            font-size: 1rem;
+        }
+        .accueil-img img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        /* Other Sections for Demo */
+        .section {
+            padding: 100px 0;
+            text-align: center;
+        }
+        #about, #portfolio, #services, #contact {
+            background-color: #f7f7f7;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+        <a class="navbar-brand" href="#">EUGENIE TCHALLA</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#accueil">Accueil</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">A Propos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">Galerie</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#services">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+                <li class="nav-item social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://wa.me/+22966250425"><i class="fab fa-whatsapp"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=61557587767774"><i class="fab fa-linkedin-in"></i></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav> <br>
+
+<!-- Accueil Section -->
+<section id="accueil" class="accueil-section">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <h1>Salut, je suis <br> <span style="color: #f0a500;">Eugénie TCHALLA</span></h1>
+                <h3>Enfileuse de Perle et Formatrice</h3>
+                <p>Découvrez mes créations uniques et laissez-vous séduire par la finesse de nos perles.</p>
+                <a href="#" class="btn btn-custom">Contactez-moi</a>
+                <a href="boutique.html" class="btn btn-custom-outline">Découvrez ma boutique</a>
+            </div>
+            <br>
+            <div class="col-lg-6 accueil-img"> <br>
+                <img src="./Asset/coupé eugenie.jpg" alt="Image of Prasojo Oppa">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Placeholder Sections -->
+<!-- A Propos Section -->
+<section id="about" class="section" style="background-color: #0b132b; color: white;">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6 about-img">
+                <img src="./Asset/beads-4933321_1280.jpg" alt="Rénato TCHOBO" class="img-fluid rounded">
+            </div>
+            <div class="col-lg-6">
+                <h2 class="mb-4">À Propos de Moi</h2>
+                <p>
+                    Je suis passionnée par l'art du perlage. En tant qu'enfileuse de perles expérimentée et formatrice en perlage, je crée des pièces uniques qui allient tradition et créativité. Mon objectif est de partager mes compétences et mon savoir-faire avec ceux qui souhaitent découvrir cet art captivant.
+                </p>
+                <p>
+                    Avec plusieurs années d'expérience, j'ai formé de nombreux apprenants à maîtriser les techniques de perlage, leur permettant de réaliser leurs propres créations et de s'épanouir dans cet univers artistique. Mon approche pédagogique est axée sur l'encouragement de l'expression individuelle et la perfection technique.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Portfolio Section -->
+<section id="portfolio" class="section" style="background-color: #0b132b; color: #333;">
+    <div class="container">
+        <h2 class="text-center mb-5">Mes Projets</h2>
+        <div class="row">
+            <!-- Project 1 -->
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100">
+                    <img src="./Asset/Faux Pearl Necklace Set, Ivory Pearl Necklace, Classic Bridal Jewelry, Bridesmaid Necklace, Faux Pearl Bridal Necklace, Wedding Jewlery Set.jpeg" class="card-img-top" alt="Projet 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Bijoux Élégants</h5>
+                        <p class="card-text">Découvrez ma collection de bijoux élégants, faits à la main avec des perles de haute qualité.</p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#project1Modal">
+                            Voir les Réalisations
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100">
+                    <img src="./Asset/IMG-20240826-WA0096.jpg" class="card-img-top" alt="Projet 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Accessoires de Mode</h5>
+                        <p class="card-text">Une gamme d'accessoires de mode uniques, alliant créativité et tradition.</p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#project2Modal">
+                            Voir les Réalisations
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100">
+                    <img src="./Asset/téléchargement (37).jpeg" class="card-img-top" alt="Projet 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Ensembles de Perles</h5>
+                        <p class="card-text">Ensembles de perles conçus pour toutes les occasions, personnalisés selon vos goûts.</p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#project3Modal">
+                            Voir les Réalisations
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for Project 1 -->
+    <div class="modal fade" id="project1Modal" tabindex="-1" aria-labelledby="project1ModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="project1ModalLabel">Bijoux Élégants</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="./Asset/I monili nuziali 2 pezzi Lega 1 collana 1 bracciale Per donna Di tendenza Personalizzato Vintage Classico Prezioso Tonda Parure di gioielli Per Matrimonio Occasioni speciali Da sera.jpeg" class="img-fluid mb-3" alt="Bijoux Élégants">
+                    <img src="./Asset/IMG-20240826-WA0087.jpg" class="img-fluid mb-3" alt="Bijoux Élégants">
+                    <!-- Add more images as needed -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for Project 2 -->
+    <div class="modal fade" id="project2Modal" tabindex="-1" aria-labelledby="project2ModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="project2ModalLabel">Accessoires de Mode</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="./Asset/IMG-20240826-WA0088.jpg" class="img-fluid mb-3" alt="Accessoires de Mode">
+                    <img src="./Asset/IMG-20240826-WA0091.jpg" class="img-fluid mb-3" alt="Accessoires de Mode">
+                    <!-- Add more images as needed -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for Project 3 -->
+    <div class="modal fade" id="project3Modal" tabindex="-1" aria-labelledby="project3ModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="project3ModalLabel">Ensembles de Perles</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="./Asset/IMG-20240826-WA0093.jpg" class="img-fluid mb-3" alt="Ensembles de Perles">
+                    <img src="./Asset/IMG-20240826-WA0093.jpg" class="img-fluid mb-3" alt="Ensembles de Perles">
+                    <!-- Add more images as needed -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<!-- Services Section -->
+<section id="services" class="section" style="background-color: #0b132b; color: white;">
+    <div class="container">
+        <h2 class="text-center mb-5">Mes Services</h2>
+        <div class="row text-center">
+            <!-- Service 1 -->
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100 bg-dark text-white">
+                    <div class="card-body">
+                        <div class="mb-3">
+                            <i class="fas fa-gem fa-3x"></i>
+                        </div>
+                        <h5 class="card-title">Création de Bijoux Personnalisés</h5>
+                        <p class="card-text">Je conçois des bijoux uniques selon vos goûts et préférences, en utilisant des perles de qualité.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Service 2 -->
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100 bg-dark text-white">
+                    <div class="card-body">
+                        <div class="mb-3">
+                            <i class="fas fa-chalkboard-teacher fa-3x"></i>
+                        </div>
+                        <h5 class="card-title">Formation en Perlage</h5>
+                        <p class="card-text">Je propose des formations complètes pour maîtriser l'art du perlage, pour débutants et avancés.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Service 3 -->
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100 bg-dark text-white">
+                    <div class="card-body">
+                        <div class="mb-3">
+                            <i class="fas fa-heart fa-3x"></i>
+                        </div>
+                        <h5 class="card-title">Bijoux de Mariage</h5>
+                        <p class="card-text">Création de bijoux élégants pour votre grand jour, entièrement personnalisés selon vos souhaits.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Service 4 -->
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100 bg-dark text-white">
+                    <div class="card-body">
+                        <div class="mb-3">
+                            <i class="fas fa-pen-nib fa-3x"></i>
+                        </div>
+                        <h5 class="card-title">Design de Bijoux</h5>
+                        <p class="card-text">Conception de designs originaux pour des collections de bijoux, alliant tradition et innovation.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Service 5 -->
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100 bg-dark text-white">
+                    <div class="card-body">
+                        <div class="mb-3">
+                            <i class="fas fa-hand-holding-heart fa-3x"></i>
+                        </div>
+                        <h5 class="card-title">Bijoux pour Occasions Spéciales</h5>
+                        <p class="card-text">Réalisation de bijoux sur mesure pour des événements spéciaux comme les anniversaires, fêtes, etc.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Service 6 -->
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100 bg-dark text-white">
+                    <div class="card-body">
+                        <div class="mb-3">
+                            <i class="fas fa-gift fa-3x"></i>
+                        </div>
+                        <h5 class="card-title">Cadeaux Personnalisés</h5>
+                        <p class="card-text">Création de cadeaux personnalisés, tels que des bracelets, colliers, et autres accessoires en perles.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+
+<!-- Contact Section -->
+<section id="contact" class="section" style="background-color: #0b132b; color: white;">
+    <div class="container">
+        <h2 class="text-center mb-5">Contactez-moi</h2>
+        <div class="row">
+            <!-- Contact Details -->
+            <div class="col-lg-4 mb-4">
+                <h5><i class="fas fa-envelope"></i> Email</h5>
+                <p>renato.tchobo@example.com</p>
+
+                <h5><i class="fas fa-phone-alt"></i> Téléphone</h5>
+                <p>+229 97 123 456</p>
+
+                <h5><i class="fas fa-map-marker-alt"></i> Adresse</h5>
+                <p>Cotonou, Bénin</p>
+
+                <h5><i class="fas fa-clock"></i> Heures de Travail</h5>
+                <p>Lundi - Vendredi: 9h - 18h</p>
+            </div>
+
+            <!-- Contact Form -->
+            <div class="col-lg-8">
+                <form action="https://your-google-form-link" method="post">
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label for="name">Nom</label>
+                            <input type="text" class="form-control" id="name" name="name" required>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" id="email" name="email" required>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="subject">Sujet</label>
+                        <input type="text" class="form-control" id="subject" name="subject" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="message">Message</label>
+                        <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Envoyer le Message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer Section -->
+<footer class="text-white" style="background-color: #0b132b; padding: 30px 0;">
+    <div class="container">
+        <div class="row">
+            <!-- About Section -->
+            <div class="col-md-4 mb-4">
+                <h5>À Propos de Moi</h5>
+                <p>Je suis Eugénie TCHALLA, enfileuse de perles et formatrice en perlage, avec une passion pour la création de bijoux uniques et l'enseignement de l'art du perlage.</p>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="col-md-4 mb-4">
+                <h5>Liens Rapides</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#about" class="text-white">À Propos</a></li>
+                    <li><a href="#portfolio" class="text-white">Portfolio</a></li>
+                    <li><a href="#services" class="text-white">Services</a></li>
+                    <li><a href="#contact" class="text-white">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- Contact Info -->
+            <div class="col-md-4 mb-4">
+                <h5>Contact</h5>
+                <p><i class="fas fa-envelope"></i> renato.tchobo@example.com</p>
+                <p><i class="fas fa-phone"></i> +229 97 123 456</p>
+                <p><i class="fas fa-map-marker-alt"></i> Cotonou, Bénin</p>
+
+                <!-- Social Media Links -->
+                <h5>Suivez-moi</h5>
+                <a href="https://www.facebook.com/profile.php?id=61557587767774" class="text-white mr-3"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="text-white mr-3"><i class="fab fa-instagram"></i></a>
+                <a href="https://wa.me/+22966250425" class="text-white mr-3"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+
+        <!-- Copyright -->
+        <div class="text-center mt-4">
+            <p>&copy; 2024 EUGENIE TCHALLA. Tous droits réservés.</p>
+        </div>
+    </div>
+</footer>
+
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
